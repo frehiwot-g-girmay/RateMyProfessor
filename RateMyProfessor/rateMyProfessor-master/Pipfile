@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+requests = "*"
+jupyter = "*"
+django-extensions = "*"
+
+[packages]
+django = "*"
+configparser = "*"
+beautifulsoup4 = "*"
+sendgrid = "*"
+sentry-sdk = "==0.6.4"
+psycopg2 = "*"
+gunicorn = "*"
+django-extensions = "*"
+
+[requires]
+python_version = "3.7"
